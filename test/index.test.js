@@ -99,8 +99,8 @@ describe('Userpilot', function() {
       });
 
       it('should send and id and traits', function() {
-        analytics.identify('id', { trait: true });
-        analytics.called(window.userpilot.identify, 'id', { id: 'id', trait: true });
+        analytics.identify('id', { trait: true, createdAt: "9" });
+        analytics.called(window.userpilot.identify, 'id', { id: 'id', trait: true, created_at: "9" });
       });
     });
   });
