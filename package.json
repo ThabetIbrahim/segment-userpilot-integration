@@ -1,5 +1,5 @@
 {
-  "name": "@segment/analytics.js-integration-userpilot",
+  "name": "@userpilot/analytics.js-integration-userpilot",
   "description": "The Userpilot analytics.js integration.",
   "version": "1.0.0",
   "keywords": [
